@@ -1,0 +1,12 @@
+/* Write your CSS here */
+.image {
+  height: 200px;
+  border-radius: 10px;
+}
+.list-container {
+  list-style-type: none;
+  margin: 20px;
+}
+.image-name {
+  font-family: 'roboto';
+}
