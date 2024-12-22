@@ -1,16 +1,21 @@
 // Write your code here
 import {Component} from 'react'
+
 import './index.css'
+
 import DestinationItem from '../DestinationItem'
+
 class DestinationSearch extends Component {
   state = {
     searchInput: '',
   }
+
   onChangeSearchInput = event => {
     this.setState({
       searchInput: event.target.value,
     })
   }
+
   render() {
     const {destinationsList} = this.props
     const {searchInput} = this.state
